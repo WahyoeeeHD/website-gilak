@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- lightgallery css cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+    <link rel="stylesheet" href="styles/jurusan.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><img src="assets/social/logoskensa.png" alt="Logo skensa" class="logo"></a>
+        <nav class="navbar">
+            <a href="#home">beranda</a>
+            <a href="#about">informasi</a>
+            <a href="#education">kompetensi keahlian</a>
+            <a href="#teacher">random</a>
+            <a href="#gallery">berita</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-user" id="login-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>Kamu belum terdaftar!</h3>
+            <!-- <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your password <a href="#">click here</a> </p> -->
+            <button class="btn btn1">login</button>
+            <button class="btn btn2">sign up</button>
+        </form>
+    </header>
+
+    <section class="home" id="home">
+        <div class="textbox">
+            <h1>kompetensi keahlian</h1>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h1 class="heading">kompetensi <span> keahlian</span></h1>
+        <div class="box-container">
+
+            <div class="box" onclick="window.location.href='jurusan.html'">
+                <img src="assets/jurusan/DKV.png" alt="">
+                <h3>Teknik Informatika</h3>
+                <p>Mempelajari pengembangan perangkat lunak, sistem komputer, serta teknologi informasi yang inovatif untuk menjawab tantangan digital</p>
+            </div>
+
+            <div class="box">
+                <img src="assets/jurusan/DPIB.png" alt="">
+                <h3>teknik bangunan</h3>
+                <p>Berfokus pada perencanaan, desain, dan konstruksi bangunan yang aman, efisien, dan berkelanjutan</p>
+            </div>
+
+            <div class="box">
+                <img src="assets/jurusan/PRF.png" alt="">
+                <h3>teknik mesin</h3>
+                <p>Menitikberatkan pada rekayasa dan desain mesin, pengembangan teknologi manufaktur, serta inovasi sistem mekanis</p>
+            </div>
+            
+            <div class="box">
+                <img src="assets/jurusan/RPL.png" alt="">
+                <h3>teknik elektronika</h3>
+                <p>Mendalami perancangan rangkaian elektronik, sistem kontrol, serta pengembangan teknologi berbasis listrik dan elektronika</p>
+            </div>
+
+            <div class="box">
+                <img src="assets/jurusan/TAV.png" alt="">
+                <h3>teknik elektronika</h3>
+                <p>Mendalami perancangan rangkaian elektronik, sistem kontrol, serta pengembangan teknologi berbasis listrik dan elektronika</p>
+            </div>
+
+            <div class="box">
+                <img src="assets/jurusan/TITL.png" alt="">
+                <h3>teknik elektronika</h3>
+                <p>Mendalami perancangan rangkaian elektronik, sistem kontrol, serta pengembangan teknologi berbasis listrik dan elektronika</p>
+            </div>
+
+            <div class="box">
+                <img src="assets/jurusan/TKJ.png" alt="">
+                <h3>teknik elektronika</h3>
+                <p>Mendalami perancangan rangkaian elektronik, sistem kontrol, serta pengembangan teknologi berbasis listrik dan elektronika</p>
+            </div>
+
+            <div class="box">
+                <img src="assets/jurusan/TKP.png" alt="">
+                <h3>teknik elektronika</h3>
+                <p>Mendalami perancangan rangkaian elektronik, sistem kontrol, serta pengembangan teknologi berbasis listrik dan elektronika</p>
+            </div>
+
+            <div class="box">
+                <img src="assets/jurusan/TKR.png" alt="">
+                <h3>teknik elektronika</h3>
+                <p>Mendalami perancangan rangkaian elektronik, sistem kontrol, serta pengembangan teknologi berbasis listrik dan elektronika</p>
+            </div>
+
+            <div class="box">
+                <img src="assets/jurusan/TPM.png" alt="">
+                <h3>teknik elektronika</h3>
+                <p>Mendalami perancangan rangkaian elektronik, sistem kontrol, serta pengembangan teknologi berbasis listrik dan elektronika</p>
+            </div>
+
+            <div class="box">
+                <img src="assets/jurusan/TPTU.png" alt="">
+                <h3>teknik elektronika</h3>
+                <p>Mendalami perancangan rangkaian elektronik, sistem kontrol, serta pengembangan teknologi berbasis listrik dan elektronika</p>
+            </div>
+
+            <div class="box">
+                <img src="assets/jurusan/TSM.png" alt="">
+                <h3>teknik elektronika</h3>
+                <p>Mendalami perancangan rangkaian elektronik, sistem kontrol, serta pengembangan teknologi berbasis listrik dan elektronika</p>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        lightGallery(document.querySelector('.gallery .gallery-container'));
+    </script>
+</body>
+</html>
