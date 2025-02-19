@@ -355,66 +355,6 @@ section{
   width: 20%; 
 }
 
-.teacher{
-  background: url(images/teacher-bg.png) no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.teacher .box-container{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  gap: 1.5rem;
-}
-
-.teacher .box-container .box{
-  background: var(--white);
-  padding: 3rem 2rem;
-  text-align: center;
-  box-shadow: var(--box-shadow);
-  border-radius: 2rem;
-}
-
-.teacher .box-container .box img{
-  height: 30rem;
-}
-
-.teacher .box-container .box h3{
-  font-size: 2.5rem;
-  color: var(--black);
-}
-
-.teacher .box-container .box p{
-  font-size: 1.7rem;
-  color: var(--light-color);
-  margin-bottom: 1rem;
-}
-
-.teacher .box-container .box .share i{
-  height: 4.5rem;
-  width: 4.5rem;
-  line-height: 4.5rem;
-  font-size: 2rem;
-  border-radius: .5rem;
-  background: none;
-  color: var(--pink);
-  border: .1rem solid var(--pink);
-  margin-left: .5rem;
-  box-shadow: var(--box-shadow);
-  cursor: pointer;
-}
-
-.teacher .box-container .box:hover{
-  transform: scale(1.05);
-  box-shadow: var(--box-shadow);
-}
-
-.teacher .box-container .box .share i:hover{
-  color: var(--white);
-  border: .1rem solid var(--orange);
-  background: var(--orange);
-}
-
 .activities .box-container{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
